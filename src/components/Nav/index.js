@@ -15,6 +15,13 @@ function Nav(props) {
     setContactSelected,
   } = props;
 
+  function goToAbout() {
+    setAboutSelected(true);
+    setProjectSelected(false);
+    setResumeSelected(false);
+    setContactSelected(false);
+  }
+
   function goToPortfolio() {
     setProjectSelected(true);
     setAboutSelected(false);
@@ -40,16 +47,24 @@ function Nav(props) {
     <Container className="nav-container">
       <Row>
         <Col xs={6} md={3}>
-          <h2 onClick={() => setAboutSelected(true)}>About</h2>
+          <button>
+            <h2 onClick={goToAbout}>About</h2>
+          </button>
         </Col>
         <Col xs={6} md={3}>
-          <h2 onClick={goToPortfolio}>Portfolio</h2>
+          <button>
+            <h2 onClick={goToPortfolio}>Portfolio</h2>
+          </button>
         </Col>
         <Col xs={6} md={3}>
-          <h2 onClick={goToResume}>Resume</h2>
+          <button>
+            <h2 onClick={goToResume}>Resume</h2>
+          </button>
         </Col>
         <Col xs={6} md={3}>
-          <h2 onClick={goToContact}>Contact</h2>
+          <button>
+            <h2 onClick={goToContact}>Contact</h2>
+          </button>
         </Col>
       </Row>
     </Container>
