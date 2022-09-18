@@ -8,12 +8,18 @@
   background-color: rgb(83, 19, 30);
 }
 
+.nav-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
 footer {
+  bottom: 0px;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 footer svg {
@@ -39,4 +45,16 @@ footer svg {
 
 .project-container {
   margin-top: 50px;
+}
+
+@media (min-width: 767px) {
+  .nav-container h2 {
+    font-size: 24px;
+  }
+
+  footer {
+    position: absolute;
+    margin-left: 45vw;
+    bottom: 0px;
+  }
 }
