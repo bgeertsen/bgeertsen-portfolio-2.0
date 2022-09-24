@@ -34,11 +34,25 @@ footer svg {
 
 .about-container {
   margin-top: 40px;
-  margin-left: 5px;
 }
 
 .about-container p {
-  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-indent: 1em;
+}
+
+.about-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-container img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .project-pic {
@@ -60,14 +74,66 @@ footer svg {
   border-radius: 25px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
 @media (min-width: 767px) {
   .nav-container h2 {
     font-size: 24px;
   }
+}
 
-  footer {
-    position: absolute;
-    margin-left: 45vw;
-    bottom: 0px;
+@media (min-width: 1440px) {
+  .about-container p {
+    font-size: 36px;
+  }
+
+  .project-pic {
+    width: 400px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .img-container img {
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .about-container p {
+    font-size: 52px;
+  }
+
+  .svg-icon {
+    width: 50px;
+    height: 50px;
+    background-size: 2000%;
+    background-position: 0px 0px;
+  }
+
+  .project-container {
+    margin-top: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .project-container .row {
+    width: 100vw;
+  }
+
+  .project {
+    width: 800px;
+  }
+
+  .project-pic {
+    width: 750px;
+    margin-bottom: 100px;
   }
 }

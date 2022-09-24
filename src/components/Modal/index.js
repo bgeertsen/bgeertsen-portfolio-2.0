@@ -14,9 +14,11 @@ function ProjectModal({ onClose, currentProject }) {
         <p>
           Github Repo: <a href={github}>{github}</a>
         </p>
-        <p>
-          Desployed App: <a href={deployment}>{deployment}</a>
-        </p>
+        {deployment && (
+          <p>
+            Desployed App: <a href={deployment}>{deployment}</a>
+          </p>
+        )}
       </Modal.Body>
 
       <Modal.Footer>

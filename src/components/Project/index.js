@@ -61,7 +61,7 @@ function Project() {
       )}
       <Row>
         {projects.map((project, i) => (
-          <Col xs={12} md={6} xl={4}>
+          <Col className="project" xs={12} md={6} xl={4}>
             <img
               className="project-pic"
               src={require(`../../Assets/images/project-images/${i}.png`)}

@@ -4,18 +4,21 @@ function About() {
   return (
     <div className="about-container">
       <h2>About Me</h2>
-      <img
-        src={require(`../../Assets/images/profile.jpg`)}
-        alt="Profile Pic"
-      ></img>
+      <div className="img-container">
+        <img
+          src={require(`../../Assets/images/profile.jpg`)}
+          alt="Profile Pic"
+        ></img>
+      </div>
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Velit euismod in
-        pellentesque massa. In dictum non consectetur a erat nam at lectus. Nec
-        nam aliquam sem et tortor consequat id. Sagittis id consectetur purus ut
-        faucibus pulvinar. Dignissim convallis aenean et tortor. Nisl rhoncus
-        mattis rhoncus urna neque viverra justo.
+        My name is Brandon Geertsen and I am a curently studying full-stack web
+        development in the Universty of Oregon's coding bootcamp. I love to code
+        and to collaborate with other developers.
+      </p>
+      <p>
+        I prefer working with backend technologies like Express, Node, and
+        MongoDB. However I also enjoy working with front-end javascript!
       </p>
     </div>
   );
