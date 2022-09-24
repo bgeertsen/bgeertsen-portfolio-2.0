@@ -4,6 +4,12 @@
   min-height: 100vh;
 }
 
+.download {
+  font-size: 24px;
+  color: rgb(83, 19, 30);
+  font-weight: bold;
+}
+
 button {
   background-color: rgb(83, 19, 30);
   color: aliceblue;
@@ -82,23 +88,47 @@ footer {
   justify-content: center;
 }
 
+.resume {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
 @media (min-width: 767px) {
   .nav-container h2 {
+    font-size: 24px;
+  }
+  .about-container p {
     font-size: 24px;
   }
 }
 
 @media (min-width: 1440px) {
   .about-container p {
-    font-size: 36px;
+    font-size: 38px;
   }
-
   .project-pic {
     width: 400px;
+  }
+
+  .resume {
+    margin-left: 50px;
+    font-size: larger;
   }
 }
 
 @media (min-width: 2560px) {
+  .download {
+    font-size: 48px;
+  }
+
+  .header h1 {
+    font-size: 68px;
+  }
+
+  .header h2 {
+    font-size: 48px;
+  }
+
   .img-container img {
     display: block;
     width: 700px;
@@ -135,5 +165,19 @@ footer {
   .project-pic {
     width: 750px;
     margin-bottom: 100px;
+  }
+
+  .resume h1 {
+    font-size: 78px;
+  }
+
+  .resume h2 {
+    font-size: 58px;
+  }
+
+  .resume {
+    font-size: 48px;
+    margin-top: 100px;
+    margin-left: 150px;
   }
 }
