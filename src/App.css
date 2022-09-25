@@ -4,6 +4,11 @@
   min-height: 100vh;
 }
 
+.send-button {
+  background-color: rgb(83, 19, 30) !important;
+  border: none !important;
+}
+
 .download {
   font-size: 24px;
   color: rgb(83, 19, 30);
@@ -93,6 +98,17 @@ footer {
   margin-left: 20px;
 }
 
+.error-message {
+  color: rgb(244, 62, 63);
+}
+
+.contact-form {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 767px) {
   .nav-container h2 {
     font-size: 24px;
@@ -179,5 +195,26 @@ footer {
     font-size: 48px;
     margin-top: 100px;
     margin-left: 150px;
+  }
+
+  .contact-form {
+    width: 900px;
+    font-size: 60px;
+  }
+
+  .input-box {
+    height: 100px;
+    font-size: 48px !important;
+  }
+
+  .message-box {
+    height: 300px;
+    font-size: 48px !important;
+  }
+
+  .send-button {
+    width: 200px;
+    height: 100px;
+    font-size: 48px !important;
   }
 }
