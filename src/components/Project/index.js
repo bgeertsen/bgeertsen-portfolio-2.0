@@ -8,6 +8,12 @@ function Project() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [projects] = useState([
     {
+      name: "Chore it up",
+      description: "Web app for organizing household chores",
+      github: "https://github.com/Bin-Ostrowski/chore-it-up",
+      deployment: "https://floating-atoll-58183.herokuapp.com/",
+    },
+    {
       name: "Dose",
       description:
         "An app to keep track of prescriptions and get text notifications for refill dates",
