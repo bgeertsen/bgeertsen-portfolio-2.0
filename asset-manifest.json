@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/bgeertsen-portfolio-2.0/static/css/main.52c86122.css",
-    "main.js": "/bgeertsen-portfolio-2.0/static/js/main.65f5af45.js",
+    "main.js": "/bgeertsen-portfolio-2.0/static/js/main.b5ee1be9.js",
     "static/js/787.b597a222.chunk.js": "/bgeertsen-portfolio-2.0/static/js/787.b597a222.chunk.js",
-    "static/media/0.png": "/bgeertsen-portfolio-2.0/static/media/0.1e3c2c54309ddd8ceeee.png",
-    "static/media/1.png": "/bgeertsen-portfolio-2.0/static/media/1.49f4dc78304e6a53480c.png",
-    "static/media/5.png": "/bgeertsen-portfolio-2.0/static/media/5.679d3f2b3989807efff5.png",
-    "static/media/4.png": "/bgeertsen-portfolio-2.0/static/media/4.875f7aac1cc5649cd183.png",
-    "static/media/3.png": "/bgeertsen-portfolio-2.0/static/media/3.0ef75cae86621da2acc1.png",
-    "static/media/2.png": "/bgeertsen-portfolio-2.0/static/media/2.af4d6e808fb048f2b211.png",
+    "static/media/0.png": "/bgeertsen-portfolio-2.0/static/media/0.1d262904f54ebc5c5959.png",
+    "static/media/1.png": "/bgeertsen-portfolio-2.0/static/media/1.1e3c2c54309ddd8ceeee.png",
+    "static/media/2.png": "/bgeertsen-portfolio-2.0/static/media/2.49f4dc78304e6a53480c.png",
+    "static/media/6.png": "/bgeertsen-portfolio-2.0/static/media/6.679d3f2b3989807efff5.png",
+    "static/media/5.png": "/bgeertsen-portfolio-2.0/static/media/5.875f7aac1cc5649cd183.png",
+    "static/media/4.png": "/bgeertsen-portfolio-2.0/static/media/4.0ef75cae86621da2acc1.png",
+    "static/media/3.png": "/bgeertsen-portfolio-2.0/static/media/3.af4d6e808fb048f2b211.png",
     "static/media/Resume2022.pdf": "/bgeertsen-portfolio-2.0/static/media/Resume2022.78a42f0b3eb20f391bd1.pdf",
     "static/media/profile.jpg": "/bgeertsen-portfolio-2.0/static/media/profile.3e02f6ba3db97c8b8977.jpg",
     "index.html": "/bgeertsen-portfolio-2.0/index.html",
     "main.52c86122.css.map": "/bgeertsen-portfolio-2.0/static/css/main.52c86122.css.map",
-    "main.65f5af45.js.map": "/bgeertsen-portfolio-2.0/static/js/main.65f5af45.js.map",
+    "main.b5ee1be9.js.map": "/bgeertsen-portfolio-2.0/static/js/main.b5ee1be9.js.map",
     "787.b597a222.chunk.js.map": "/bgeertsen-portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c86122.css",
-    "static/js/main.65f5af45.js"
+    "static/js/main.b5ee1be9.js"
   ]
 }
