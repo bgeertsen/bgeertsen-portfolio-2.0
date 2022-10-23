@@ -31,6 +31,17 @@ button {
   margin-top: 10px;
 }
 
+.nav-container h2 {
+  padding: 5px;
+}
+
+.nav-container h2:hover {
+  color: rgb(83, 19, 30);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 25px;
+}
+
 footer {
   bottom: 0px;
   width: auto;
