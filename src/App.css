@@ -55,6 +55,10 @@ footer svg {
   margin: 10px;
 }
 
+footer svg:hover {
+  color: rgb(83, 19, 30);
+}
+
 .about-container {
   margin-top: 40px;
 }
