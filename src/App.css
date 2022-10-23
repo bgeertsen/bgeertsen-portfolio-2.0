@@ -33,6 +33,17 @@ button {
   margin-top: 10px;
 }
 
+.nav-container h2 {
+  padding: 5px;
+}
+
+.nav-container h2:hover {
+  color: rgb(83, 19, 30);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 25px;
+}
+
 footer {
   width: 100vw;
   display: flex;
@@ -42,6 +53,10 @@ footer {
 
 footer svg {
   margin: 10px;
+}
+
+footer svg:hover {
+  color: rgb(83, 19, 30);
 }
 
 .about-container {
