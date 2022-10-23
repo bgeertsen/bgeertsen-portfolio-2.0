@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bgeertsen-portfolio-2.0/static/css/main.52c86122.css",
-    "main.js": "/bgeertsen-portfolio-2.0/static/js/main.b5ee1be9.js",
+    "main.css": "/bgeertsen-portfolio-2.0/static/css/main.f6d26f2c.css",
+    "main.js": "/bgeertsen-portfolio-2.0/static/js/main.315e6d45.js",
     "static/js/787.b597a222.chunk.js": "/bgeertsen-portfolio-2.0/static/js/787.b597a222.chunk.js",
     "static/media/0.png": "/bgeertsen-portfolio-2.0/static/media/0.1d262904f54ebc5c5959.png",
     "static/media/1.png": "/bgeertsen-portfolio-2.0/static/media/1.1e3c2c54309ddd8ceeee.png",
@@ -13,12 +13,12 @@
     "static/media/Resume2022.pdf": "/bgeertsen-portfolio-2.0/static/media/Resume2022.78a42f0b3eb20f391bd1.pdf",
     "static/media/profile.jpg": "/bgeertsen-portfolio-2.0/static/media/profile.3e02f6ba3db97c8b8977.jpg",
     "index.html": "/bgeertsen-portfolio-2.0/index.html",
-    "main.52c86122.css.map": "/bgeertsen-portfolio-2.0/static/css/main.52c86122.css.map",
-    "main.b5ee1be9.js.map": "/bgeertsen-portfolio-2.0/static/js/main.b5ee1be9.js.map",
+    "main.f6d26f2c.css.map": "/bgeertsen-portfolio-2.0/static/css/main.f6d26f2c.css.map",
+    "main.315e6d45.js.map": "/bgeertsen-portfolio-2.0/static/js/main.315e6d45.js.map",
     "787.b597a222.chunk.js.map": "/bgeertsen-portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52c86122.css",
-    "static/js/main.b5ee1be9.js"
+    "static/css/main.f6d26f2c.css",
+    "static/js/main.315e6d45.js"
   ]
 }
