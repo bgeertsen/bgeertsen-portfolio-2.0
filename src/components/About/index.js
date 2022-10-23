@@ -12,13 +12,16 @@ function About() {
       </div>
 
       <p>
-        My name is Brandon Geertsen and I am a curently studying full-stack web
-        development in the Universty of Oregon's coding bootcamp. I love to code
-        and to collaborate with other developers.
-      </p>
-      <p>
-        I prefer working with backend technologies like Express, Node, and
-        MongoDB. However I also enjoy working with front-end javascript!
+        Full-stack web developer with a passion for learning new technologies
+        and expanding my skill set. Recently earned a certificate in full stack
+        development from the University of Oregon Coding Bootcamp. Developed
+        skills in Javascript, CSS, React.js, MySQL, NOSQL, and MongoDB. Among my
+        team members I’m known as a reliable workhorse and a creative problem
+        solver. My goal with each project is to write clean code, and create
+        applications with user friendly interfaces. I developed a single-page
+        MERN app with 4 other developers that helps manage household chores and
+        activities. I’m excited to leverage my skills as part of a first-rate
+        team to create user friendly experiences on the web.
       </p>
     </div>
   );
