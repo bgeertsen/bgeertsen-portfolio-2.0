@@ -118,11 +118,37 @@ footer svg:hover {
   margin-right: auto;
 }
 
+.contact-container {
+  margin-top: 50px;
+  margin-left: 10px;
+  height: 50vh;
+}
+
+.contact {
+  color:rgb(83, 19, 30);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.contact-container p {
+  font-size: 20px;
+}
+
+.contact-links {
+  color: white;
+  text-decoration: none;
+}
+
 @media (min-width: 767px) {
   .nav-container h2 {
     font-size: 24px;
   }
   .about-container p {
+    font-size: 24px;
+  }
+  .contact-container {
+    height: 65vh;
+    margin-left: 50px;
     font-size: 24px;
   }
 }
@@ -138,6 +164,10 @@ footer svg:hover {
   .resume {
     margin-left: 50px;
     font-size: larger;
+  }
+
+  .contact-container p {
+    font-size: 28px;
   }
 }
 
